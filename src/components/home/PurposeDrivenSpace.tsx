@@ -64,9 +64,15 @@ export function PurposeDrivenSpace() {
                   <h3 className="text-white font-bold text-xl mb-1.5">
                     {space.title}
                   </h3>
-                  <p className="text-white/65 text-sm leading-relaxed">
+                  <p className="text-white/65 text-sm leading-relaxed mb-3">
                     {space.description}
                   </p>
+                  <Link
+                    href="/purpose-driven-space"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:text-amber-300 transition-colors"
+                  >
+                    View Details <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
                 </div>
               </motion.article>
             </StaggerItem>

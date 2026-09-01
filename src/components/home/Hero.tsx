@@ -38,7 +38,7 @@ export function Hero() {
       {/* Parallax background */}
       <motion.div className="absolute inset-0 scale-110" style={{ y: bgY }}>
         <Image
-          src="/Home page Image.png"
+          src="https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/e57cc90c-7432-4039-ae26-0797fcf98735-scaled-home-page-image.jpg"
           alt="CHP Himalayan Paradise"
           fill
           priority
