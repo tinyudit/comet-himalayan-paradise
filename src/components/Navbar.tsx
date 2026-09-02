@@ -21,9 +21,10 @@ const navLinks = [
 
 // Secondary links — shown in the "More" dropdown on desktop and a grouped section on mobile
 const moreLinks = [
-  { href: "/contact", label: "Second Home" },
+  { href: "/gateways", label: "CHP Gateways" },
+  { href: "/second-home", label: "Second Home" },
   { href: "/facilities", label: "CHP Facilities" },
-  { href: "/contact", label: "Business & Investment" },
+  { href: "/business-investment", label: "Business & Investment" },
   { href: "/purpose-driven-space", label: "Purpose Driven Space" },
   { href: "/chp-enclave", label: "CHP Enclave" },
 ];
@@ -87,7 +88,7 @@ export function Navbar() {
               )}
             >
               <Image
-                src="/Logo final 2026.png"
+                src="https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/79abc1c0-afd2-4cfe-bfe3-c8ce0b20faf5-chatgpt-image-aug-31-2026-11-56-21-pm.png"
                 alt="CHP Himalayan Paradise"
                 width={170}
                 height={50}
