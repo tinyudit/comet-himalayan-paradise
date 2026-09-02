@@ -12,7 +12,8 @@ const experiences = [
     title: "Holiday Camps",
     description:
       "Multi-day immersive camps combining adventure, wellness, culture, and nature in stunning Himalayan settings.",
-    image: "/Holiday Camp 2.png",
+    image:
+      "https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/holiday-camps/bc55a313-cbaf-42f6-89fc-92a46e61d145-adventure-camp.jpg",
     href: "/camps",
     badge: "1–45 Days",
   },
@@ -20,7 +21,8 @@ const experiences = [
     title: "Wellness Retreats",
     description:
       "Yoga, meditation, pranayama, and mindfulness in the natural cathedral of the Himalayas.",
-    image: "/Wellness retreat.png",
+    image:
+      "https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/holiday-camps/2f042686-f530-4008-abba-f1f06a67a846-wellness.webp",
     href: "/experiences",
     badge: "3–14 Days",
   },
@@ -28,7 +30,8 @@ const experiences = [
     title: "Wildlife & Nature",
     description:
       "Birding walks, jungle safaris, night safaris, and wildlife observation with expert naturalists.",
-    image: "/Wildlife and nature 2.png",
+    image:
+      "https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/public/images/21ce77df-8ab2-4920-a9eb-f7ca749c5cee-chp-enclave.png",
     href: "/experiences",
     badge: "All Year",
   },
