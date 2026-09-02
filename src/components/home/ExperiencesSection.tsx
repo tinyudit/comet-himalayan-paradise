@@ -21,7 +21,7 @@ const experiences = [
     description:
       "Yoga, meditation, pranayama, and mindfulness in the natural cathedral of the Himalayas.",
     image: "/Wellness retreat.png",
-    href: "/treks",
+    href: "/experiences",
     badge: "3–14 Days",
   },
   {
@@ -29,7 +29,7 @@ const experiences = [
     description:
       "Birding walks, jungle safaris, night safaris, and wildlife observation with expert naturalists.",
     image: "/Wildlife and nature 2.png",
-    href: "/treks",
+    href: "/experiences",
     badge: "All Year",
   },
   {
@@ -37,7 +37,7 @@ const experiences = [
     description:
       "Village tours, traditional cooking, folk art, herbal farming, and living heritage of Kumaon.",
     image: "/Cultural Experiences.png",
-    href: "/treks",
+    href: "/experiences",
     badge: "Immersive",
   },
   {
@@ -45,7 +45,7 @@ const experiences = [
     description:
       "Mountain cycling, riverside camping, rock scrambling, glacier walks, and adrenaline pursuits.",
     image: "/Adventure Activities.png",
-    href: "/treks",
+    href: "/experiences",
     badge: "Multi-level",
   },
 ];
@@ -62,7 +62,7 @@ export function ExperiencesSection() {
             align="left"
           />
           <Link
-            href="/treks"
+            href="/experiences"
             className="hidden md:inline-flex items-center gap-2 text-green-900 font-semibold text-sm hover:text-green-700 transition-colors shrink-0"
           >
             All Experiences
@@ -117,7 +117,7 @@ export function ExperiencesSection() {
 
         <div className="mt-12 text-center">
           <Link
-            href="/treks"
+            href="/experiences"
             className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-800 text-white font-semibold text-sm px-8 py-3.5 rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-green-900/25 hover:-translate-y-0.5"
           >
             All Experiences
